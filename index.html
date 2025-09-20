@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enoverse - AI-Powered Web3 RPG</title>
+    <meta name="description" content="Enter the ultimate AI-powered Web3 multiplayer strategy RPG. Mint evolving NFT characters, explore dynamic quests, and build your legend in the cyberpunk metaverse.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <section class="hero-bg">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 32px;">
+                <div class="alpha-badge">Alpha Release • Web3 Gaming</div>
+            </div>
+            
+            <h1 class="hero-title gradient-text">ENOVERSE</h1>
+            
+            <p class="hero-subtitle">
+                Enter the ultimate AI-powered Web3 multiplayer strategy RPG. 
+                <span style="color: #E879F9; font-weight: 600;">Mint evolving NFT characters</span>, 
+                explore dynamic quests, and build your legend in the cyberpunk metaverse.
+            </p>
+
+            <div class="button-group">
+                <button class="btn-primary" onclick="showNotification('Game launching soon! 🚀')">
+                    Play Game
+                </button>
+                
+                <button class="btn-secondary" onclick="scrollToSection('characters')">
+                    Learn More
+                </button>
+            </div>
+
+            <div class="hero-stats">
+                <div>
+                    <div class="hero-stat-value gradient-text">10K+</div>
+                    <div class="hero-stat-label">NFT Characters</div>
+                </div>
+                <div>
+                    <div class="hero-stat-value gradient-text">AI-Powered</div>
+                    <div class="hero-stat-label">Dynamic Quests</div>
+                </div>
+                <div>
+                    <div class="hero-stat-value gradient-text">Polygon</div>
+                    <div class="hero-stat-label">Low-Cost Gaming</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="characters" class="section">
+        <div class="container">
+            <h2 class="section-title gradient-text">Character Archetypes</h2>
+            <p class="section-subtitle">
+                Choose your path in the cyberpunk metaverse. Each archetype offers unique abilities, 
+                AI-powered evolution, and strategic gameplay advantages.
+            </p>
+
+            <div class="character-grid">
+              
+                <div class="character-card epic" onclick="selectCharacter('void-hunter')">
+                    <div class="character-image">
+                       
+                        <div class="character-placeholder">
+                            <div class="icon">🎯</div>
+                            <div class="type">Hunter</div>
+                        </div>
+                        <div class="level-badge">Level 15</div>
+                        <div class="rarity-badge epic-badge">Epic</div>
+                    </div>
+
+                    <div class="character-info">
+                        <h3 class="character-name">Void Hunter</h3>
+                        <p class="character-type">Hunter</p>
+
+                        <div style="margin-bottom: 16px;">
+                            <div class="stat-row">
+                                <span class="stat-label">ATK</span>
+                                <span class="stat-value">95</span>
+                            </div>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+
+                        <div style="margin-bottom: 16px;">
+                            <div class="stat-row">
+                                <span class="stat-label">DEF</span>
+                                <span class="stat-value">45</span>
+                            </div>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 45%"></div>
+                            </div>
+                        </div>
+
+                        <div style="margin-bottom: 16px;">
+                            <div class="stat-row">
+                                <span class="stat-label">SPD</span>
+                                <span class="stat-value">92</span>
+                            </div>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 92%"></div>
+                            </div>
+                        </div>
+
+                        <div style="margin-bottom: 20px;">
+                            <div class="stat-row">
+                                <span class="stat-label">INT</span>
+                                <span class="stat-value">68</span>
+                            </div>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 68%"></div>
+                            </div>
+                        </div>
+
+                        <button class="mint-btn" onclick="mintCharacter('Void Hunter', '0.75 MATIC')">
+                            Mint for 0.75 MATIC
+                        </button>
+                    </div>
+                </div>
+
+                <div class="character-card legendary" onclick="selectCharacter('neo-guardian')">
+                    <div class="character-image">
+                        
+                        <div class="character-placeholder">
+                            <div class="icon">🛡️</div>
+                            <div class="type">Guardian</div>
+                        </div>
+                        <div class="level-badge">Level 22</div>
+                        <div class="rarity-badge legendary-badge">Legendary</div>
+                    </div>
+
+                    <div class="character-info">
+                        <h3 class="character-name">Neo Guardian</h3>
+                        <p class="character-type">Guardian</p>
+
+                        <div style="margin-bottom: 16px;">
+                            <div class="stat-row">
+                                <span class="stat-label">ATK</span>
+                                <span class="stat-value">68</span>
+                            </div>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 68%"></div>
+                            </div>
+                        </div>
+
+                        <div style="margin-bottom: 16px;">
+                            <div class="stat-row">
+                                <span class="stat-label">DEF</span>
+                                <span class="stat-value">98</span>
+                            </div>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 98%"></div>
+                            </div>
+                        </div>
+
+                        <div style="margin-bottom: 16px;">
+                            <div class="stat-row">
+                                <span class="stat-label">SPD</span>
+                                <span class="stat-value">38</span>
+                            </div>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 38%"></div>
+                            </div>
+                        </div>
+
+                        <div style="margin-bottom: 20px;">
+                            <div class="stat-row">
+                                <span class="stat-label">INT</span>
+                                <span class="stat-value">82</span>
+                            </div>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 82%"></div>
+                            </div>
+                        </div>
+
+                        <button class="mint-btn" onclick="mintCharacter('Neo Guardian', '1.5 MATIC')">
+                            Mint for 1.5 MATIC
+                        </button>
+                    </div>
+                </div>
+
+                <div class="character-card rare" onclick="selectCharacter('quantum-techmancer')">
+                    <div class="character-image">
+                        
+                        <div class="character-placeholder">
+                            <div class="icon">⚡</div>
+                            <div class="type">Techmancer</div>
+                        </div>
+                        <div class="level-badge">Level 18</div>
+                        <div class="rarity-badge rare-badge">Rare</div>
+                    </div>
+
+                    <div class="character-info">
+                        <h3 class="character-name">Quantum Techmancer</h3>
+                        <p class="character-type">Techmancer</p>
+
+                        <div style="margin-bottom: 16px;">
+                            <div class="stat-row">
+                                <span class="stat-label">ATK</span>
+                                <span class="stat-value">58</span>
+                            </div>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 58%"></div>
+                            </div>
+                        </div>
+
+                        <div style="margin-bottom: 16px;">
+                            <div class="stat-row">
+                                <span class="stat-label">DEF</span>
+                                <span class="stat-value">62</span>
+                            </div>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 62%"></div>
+                            </div>
+                        </div>
+
+                        <div style="margin-bottom: 16px;">
+                            <div class="stat-row">
+                                <span class="stat-label">SPD</span>
+                                <span class="stat-value">78</span>
+                            </div>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 78%"></div>
+                            </div>
+                        </div>
+
+                        <div style="margin-bottom: 20px;">
+                            <div class="stat-row">
+                                <span class="stat-label">INT</span>
+                                <span class="stat-value">96</span>
+                            </div>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 96%"></div>
+                            </div>
+                        </div>
+
+                        <button class="mint-btn" onclick="mintCharacter('Quantum Techmancer', '0.9 MATIC')">
+                            Mint for 0.9 MATIC
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nft-info">
+                <p>All characters are minted as ERC-721 NFTs on Polygon with evolving AI-powered traits</p>
+                <div class="nft-features">
+                    <div>⚡ AI Evolution</div>
+                    <div>🔗 Blockchain Verified</div>
+                    <div>🎮 Gameplay Ready</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section" style="background: rgba(13, 13, 13, 0.95);">
+        <div class="container">
+            <h2 class="section-title gradient-text">Core Features</h2>
+            <p class="section-subtitle">
+                Experience next-generation gaming with AI-powered mechanics, blockchain integration, 
+                and community-driven governance in the cyberpunk metaverse.
+            </p>
+
+            <div class="features-grid">
+              
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3 class="feature-title">AI-Evolving Creatures</h3>
+                    <p class="feature-description">
+                        Your NFT characters learn and evolve through advanced AI algorithms, developing unique traits based on gameplay decisions.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h3 class="feature-title">Dynamic AI-Generated Quests</h3>
+                    <p class="feature-description">
+                        Experience endless adventures with AI-powered quest generation that adapts to your playstyle and character progression.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3 class="feature-title">Decentralized Economy & Governance</h3>
+                    <p class="feature-description">
+                        Trade, battle, and collaborate in a player-driven economy built on blockchain technology with true ownership.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 class="feature-title">AI-Powered Onboarding & Security</h3>
+                    <p class="feature-description">
+                        Advanced AI systems ensure fair gameplay, detect cheating, and maintain a balanced gaming environment for all players.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: rgba(20, 20, 30, 0.8);">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;">
+               
+                <div>
+                    <h2 style="font-size: 48px; font-weight: 800; margin-bottom: 24px; color: white;">
+                        Web3 Integration
+                    </h2>
+                    
+                    <div style="background: rgba(30, 30, 30, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 20px; padding: 40px; text-align: center;">
+                        <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #E879F9, #A855F7); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px; font-size: 32px;">
+                            💳
+                        </div>
+                        
+                        <h3 style="font-size: 24px; font-weight: 700; margin-bottom: 16px; color: white;">
+                            Connect Wallet
+                        </h3>
+                        
+                        <p style="color: rgba(255, 255, 255, 0.7); margin-bottom: 32px; line-height: 1.6;">
+                            Connect your MetaMask wallet to start playing and minting NFTs
+                        </p>
+                        
+                        <button class="btn-primary" onclick="connectWallet()" style="width: 100%;">
+                            Connect MetaMask
+                        </button>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 style="font-size: 48px; font-weight: 800; margin-bottom: 24px;" class="gradient-text">
+                        AI Quest Generator
+                    </h2>
+                    
+                    <p style="color: rgba(255, 255, 255, 0.7); margin-bottom: 32px; font-size: 16px;">
+                        Dynamic, personalized missions powered by Gemini AI
+                    </p>
+                    
+                    <button class="btn-primary" onclick="generateQuest()" style="margin-bottom: 40px;">
+                        Generate New Quest
+                    </button>
+                    
+                    <div id="questDisplay" style="background: rgba(30, 30, 30, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 16px; padding: 20px; margin-bottom: 16px;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                            <h4 style="color: white; font-weight: 600;">Neon District Infiltration</h4>
+                            <span style="background: #10B981; color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">Easy</span>
+                        </div>
+                        <p style="color: rgba(255, 255, 255, 0.7); font-size: 14px; line-height: 1.5; margin-bottom: 12px;">
+                            Infiltrate the corporate data center and retrieve classified AI algorithms. Avoid security drones and hack through three firewall layers.
+                        </p>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="color: #E879F9; font-size: 12px; font-weight: 600;">Reward: 150 XP + Rare Weapon</span>
+                            <span style="background: rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.8); padding: 4px 12px; border-radius: 20px; font-size: 12px;">Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: radial-gradient(ellipse at center, rgba(168, 85, 247, 0.2) 0%, rgba(13, 13, 13, 0.95) 70%, #0D0D0D 100%); position: relative;">
+        <div class="container" style="text-align: center;">
+           
+            <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #E879F9, #A855F7); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin: 0 auto 40px; font-size: 32px;">
+                🎮
+            </div>
+            
+            <h2 style="font-size: 56px; font-weight: 800; margin-bottom: 32px; color: white;">
+                Ready to Enter the <span class="gradient-text">Metaverse</span>?
+            </h2>
+            
+            <p style="font-size: 18px; color: rgba(255, 255, 255, 0.8); max-width: 600px; margin: 0 auto 48px; line-height: 1.6;">
+                Join thousands of players in the ultimate AI-powered Web3 gaming experience. 
+                Mint your character, explore dynamic quests, and build your legend.
+            </p>
+
+            <div style="display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 48px;">
+                <button class="btn-primary" onclick="startPlaying()" style="font-size: 18px; padding: 16px 32px;">
+                    Start Playing Now
+                </button>
+                
+                <button class="btn-secondary" onclick="viewRoadmap()" style="font-size: 18px; padding: 16px 32px;">
+                    View Roadmap
+                </button>
+            </div>
+
+            <div style="color: rgba(255, 255, 255, 0.6); font-size: 14px;">
+                <span style="margin-right: 32px;">Alpha Release</span>
+                <span style="margin-right: 32px;">•</span>
+                <span style="margin-right: 32px;">Polygon Network</span>
+                <span style="margin-right: 32px;">•</span>
+                <span>AI-Powered Gaming</span>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

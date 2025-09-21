@@ -6,7 +6,7 @@
 **Enter the ultimate AI-powered Web3 multiplayer strategy RPG. Mint evolving NFT characters, explore dynamic quests, and build your legend in the cyberpunk metaverse.**
 
 
-[🚀 Live Demo](https://eno-verse.netlify.app/) • [ Demo Video]((https://youtu.be/DprfzvKsGOs?si=wW9EEgB7RyHCPQB0))
+[🚀 Live Demo](https://eno-verse.netlify.app/) • [ Demo Video](https://youtu.be/DprfzvKsGOs?si=wW9EEgB7RyHCPQB0)
 
 </div>
 
